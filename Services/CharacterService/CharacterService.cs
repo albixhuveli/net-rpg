@@ -15,12 +15,12 @@ namespace net_RPG.Services.CharacterService
 
         public List<Character> GetAllCharacters()
         {
-            throw new NotImplementedException();
+            return characters;
         }
 
         public Character GetCharacterByID(int id)
         {
-            throw new NotImplementedException();
+            return characters.FirstOrDefault(c => c.Id == id);
         }
     }
 }
