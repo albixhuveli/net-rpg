@@ -11,5 +11,6 @@ namespace net_RPG.Services.CharacterService
         List<Character> GetAllCharacters();
         Character GetCharacterByID(int id);
         List<Character> AddCharacter(Character newCharacter);
+        
     }
 }

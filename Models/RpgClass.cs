@@ -9,6 +9,5 @@ namespace net_RPG.Models
         Wizard = 2,
         Tank = 3,
         Rogue = 4,
-
     }
 }

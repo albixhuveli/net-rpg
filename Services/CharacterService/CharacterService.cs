@@ -8,6 +8,7 @@ namespace net_RPG.Services.CharacterService
 {
     public class CharacterService : ICharacterService
     {
+        
         public List<Character> AddCharacter(Character newCharacter)
         {
             throw new NotImplementedException();
