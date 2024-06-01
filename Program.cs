@@ -1,4 +1,6 @@
 global using net_RPG.Services.CharacterService;
+global using net_RPG.Dtos.Character;
+
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
