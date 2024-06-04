@@ -12,6 +12,7 @@ namespace net_RPG
         {
             CreateMap<Character, GetCharacterDto>();
             CreateMap<AddCharacterDto, Character>();
+           
         }
     }
 }
